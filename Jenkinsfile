@@ -6,8 +6,8 @@ pipeline {
         DOCKER_PATH = '/usr/local/bin'
         AWS_CLI = '/usr/local/bin'
         EC2_USER = 'ubuntu'
-        AWS_S3_BUCKET = 'backup-product-app'
-        EC2_INSTANCE = '54.84.243.245'
+        AWS_S3_BUCKET = 'demo-prdocut-1'
+        EC2_INSTANCE = '18.232.84.107'
         SSH_KEY = credentials('ssh')
         DOCKER_REGISTRY_CREDENTIALS = credentials('dockerhub')
         DOCKER_IMAGE_NAME = 'ithiris/product-definition-service'

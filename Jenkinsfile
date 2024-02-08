@@ -3,8 +3,8 @@ pipeline {
 
     environment {
        MAVEN_HOME = tool 'Maven'
-        DOCKER_PATH = '/usr/local/bin'
-        AWS_CLI = '/usr/local/bin'
+        DOCKER_PATH = "${env.DOCKER_PATH}"
+        AWS_CLI = "${env.AWS_CLI}"
         EC2_USER = 'ubuntu'
         AWS_S3_BUCKET = 'demo-prdocut-1'
         EC2_INSTANCE = '18.232.84.107'
